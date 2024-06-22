@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#login-container {
+    max-width: 350px;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#login-form input[type="text"],
+#login-form input[type="password"],#login-form input[type="email"],
+#login-form input[type="date"] {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
+}
+#login-form input[type="submit"]{
+    padding: 8px;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    margin: 30px, auto;
+    border: 1px solid green;
+    background-color: green;
+}
+#login-form>a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 60px;
+}
