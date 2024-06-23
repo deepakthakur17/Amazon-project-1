@@ -25,22 +25,22 @@
 let userData = JSON.parse(localStorage.getItem("users")) || []
 let loginForm = document.getElementById("login-form")
 
-loginForm.addEventListener("submit", function () {
-  event.preventDefault()
+loginForm.addEventListener("submit", function() {
+    event.preventDefault()
 
-  let loginObj = {
-    email: loginForm.email.value,
-    password: loginForm.password.value,
-  }
-  let filterUser = userData.filter(function(element){
-    if(element.email===loginObj.email && element.password===loginObj.password){
-      return element;
+    let loginObj = {
+        email: loginForm.email.value,
+        password: loginForm.password.value,
     }
-  })
-  if(filterUser.length>0){
-    alert("Login successfully...")
-    window.location.href = "font_page.html"
-  }else{
-    alert("Invalid username or password")
-  }
+    let filterUser = userData.filter(function(element) {
+        if (element.email === loginObj.email && element.password === loginObj.password) {
+            return element;
+        }
+    })
+    if (filterUser.length > 0) {
+        alert("Login successfully...")
+        window.location.href = "index.html"
+    } else {
+        alert("Invalid username or password")
+    }
 })

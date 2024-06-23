@@ -1,7 +1,7 @@
 let userData = JSON.parse(localStorage.getItem("users")) || []
 let loginForm = document.getElementById("login-form")
 
-loginForm.addEventListener("submit", function () {
+loginForm.addEventListener("submit", function() {
     event.preventDefault()
 
     let loginObj = {
@@ -13,8 +13,8 @@ loginForm.addEventListener("submit", function () {
 
     }
     userData.push(loginObj)
-    localStorage.setItem("users",JSON.stringify(userData))
+    localStorage.setItem("users", JSON.stringify(userData))
     loginForm.reset()
     alert("Your registation is successfully...")
-    window.location.href = "index.html"
+    window.location.href = "index-2.html"
 })
