@@ -44,3 +44,22 @@ function automateSlide() {
     setTimeout(automateSlide, 4000)
 }
 automateSlide()
+
+
+
+// side bar
+
+
+const sidebarNavigationEl = document.getElementById("sidebar-container-navigation")
+const sidebarOpenNavigationEl = document.getElementById("nav-link")
+const sidebarCloseNavigationEl = document.getElementById("sidebar-navigation-close")
+
+sidebarOpenNavigationEl.addEventListener("click", () => {
+    // alert("check")
+    sidebarNavigationEl.classList.toggle("sliderbar-show")
+
+})
+sidebarCloseNavigationEl.addEventListener("click", () => {
+    sidebarNavigationEl.classList.toggle("sliderbar-show")
+
+})
