@@ -3,10 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+
+body {
+    /* background-color: black; */
+    background-image: url("https: //images.unsplash.com/photo-1591270551371-3401a1a9382f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW1hem9ufGVufDB8fDB8fHww");
 }
+
+img {
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    position: absolute;
+    top: 50px;
+    left: 41%;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
 #login-container {
+    position: absolute;
+    top: 110px;
+    left: 40%;
     max-width: 350px;
     height: auto;
     margin: 30px auto;
@@ -16,17 +36,20 @@ body{
     border-radius: 10px;
     border: 2px solid black;
 }
+
 #login-form input[type="text"],
-#login-form input[type="password"],#login-form input[type="email"],
+#login-form input[type="password"],
+#login-form input[type="email"],
 #login-form input[type="date"] {
-  width: 100%;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
 }
-#login-form input[type="submit"]{
+
+#login-form input[type="submit"] {
     padding: 8px;
     font-size: large;
     font-weight: bold;
@@ -34,9 +57,11 @@ body{
     margin: 30px, auto;
     border: 1px solid green;
     background-color: green;
+    margin-bottom: 12px;
 }
-#login-form>a{
+
+#login-form>a {
     text-decoration: none;
     color: blue;
-    margin-left: 60px;
+    margin-left: 80px;
 }

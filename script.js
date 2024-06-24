@@ -3,7 +3,6 @@ slideFun(index)
 
 function addSlide(num) {
     index = index + num
-        // console.log(index)
     slideFun(index)
 }
 
