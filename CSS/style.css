@@ -529,8 +529,8 @@
  .left-swipe-container span {
      font-size: 25px;
      margin-left: 20px;
-     position: relative;
-     top: 12px;
+     position: absolute;
+     top: 15%px;
  }
  
  #left-swipe-container {
@@ -540,9 +540,11 @@
  
  .left-swipe-container a {
      color: blue;
-     position: relative;
-     top: 12px;
-     margin-left: 12px;
+     position: absolute;
+     top: 100%px;
+     left: 300px;
+     margin-left: 45px;
+     margin-top: 5px;
  }
  
  .left-swipe-container .S-container img {

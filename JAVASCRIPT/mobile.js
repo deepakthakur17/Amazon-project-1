@@ -43,7 +43,7 @@ function slideFun(idx) {
 // SIGN BUTTON 
 
 function SignPage() {
-    window.location.href = "index-2.html"
+    window.location.href = "/HTML/index-2.html"
 }
 
 
